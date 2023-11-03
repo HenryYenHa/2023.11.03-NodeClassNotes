@@ -1,5 +1,5 @@
-var sayHi = require('./sayHiFunctions')
-var {quickBye} = require('./sayByeFunctions')
+let sayHi = require("./sayHiFunctions");
+let { qb } = require("./sayByeFunctions");
 
-sayHi("Chris")
-quickBye("Chris")
+sayHi("Chris");
+qb("Chris");
